@@ -38,19 +38,66 @@ This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_Lea
 ### Non-Parallel Transfer
 In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. Below, contrast the monotonous prosody of the baseline with examples of long-form synthesis with a narrative source style.
 
-Reference Text: when it was all done he put it on the table beside me , and at first i did nt know whether i was the live rabbit or the toy rabbit , we were so much alike 
+##### (1) Reference Text: when it was all done he put it on the table beside me , and at first i did nt know whether i was the live rabbit or the toy rabbit , we were so much alike 
 
 | Reference aduio |
 | -----------     |
 | <audio src="non_pa/sample1/100_121674_000026_000003.wav" controls preload></audio> |
 
-Target Text: well , his grill has a plating of gold , and his twistings are greatly admired
+#### (1) Target Text: well , his grill has a plating of gold , and his twistings are greatly admired
 
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
 | <audio src="non_pa/sample1/[000001][100_121674_000026_000003][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample1/[000001][100_121674_000026_000003][Generalize]Y.wav" controls preload></audio> |
 
+##### (2) Reference Text: chapter eight the mermaids lagoon
+
+| Reference aduio |
+| -----------     |
+| <audio src="non_pa/sample2/1012_133424_000001_000000.wav" controls preload></audio> |
+
+#### (2) Target Text: to be more accurate , i should have said to the northeast
+
+| <center> GenerSpeech </center> | <center> NoreSpeech </center>|
+| -----------     |  -----------     |
+| <audio src="non_pa/sample2/[000005][1012_133424_000001_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample2/[000005][1012_133424_000001_000000][Generalize]Y.wav" controls preload></audio> |
+
+##### (3) Reference Text: some of the reverend frank milveys brethren had found themselves exceedingly uncomfortable in their minds , because they were required to bury the dead too hopefully 
+
+| Reference aduio |
+| -----------     |
+| <audio src="non_pa/sample3/1027_125140_000008_000000.wav" controls preload></audio> |
+
+#### (3) Target Text: but there was a passenger dropped off for you a little girl
+
+| <center> GenerSpeech </center> | <center> NoreSpeech </center>|
+| -----------     |  -----------     |
+| <audio src="non_pa/sample3/[000027][1027_125140_000008_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample3/[000027][1027_125140_000008_000000][Generalize]Y.wav" controls preload></audio> |
+
+##### (4) Reference Text: baron conrad and his men at arms sat foot in stirrup , the milk white horse that had been brought for otto stood waiting for him beside his fathers great charger. 
+
+| Reference aduio |
+| -----------     |
+| <audio src="non_pa/sample4/1028_133393_000002_000001.wav" controls preload></audio> |
+
+#### (4) Target Text: she would invoke the past , recall old recollections ; she would supplicate him by the remembrance of guilty , yet happy days.
+
+| <center> GenerSpeech </center> | <center> NoreSpeech </center>|
+| -----------     |  -----------     |
+| <audio src="non_pa/sample4/[000031][1028_133393_000002_000001][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample4/[000031][1028_133393_000002_000001][Generalize]Y.wav" controls preload></audio> |
+
+##### (5) Reference Text: the morrow brought a very sober looking morning , the sun making only a few efforts to appear , and catherine augured from it everything most favourable to her wishes 
+
+| Reference aduio |
+| -----------     |
+| <audio src="non_pa/sample5/14_208_000001_000000.wav" controls preload></audio> |
+
+#### (5) Target Text: the store is on a corner about which coveys of ragged plumed , hilarious children play and become candidates for the cough drops and soothing syrups that wait for them inside.
+
+| <center> GenerSpeech </center> | <center> NoreSpeech </center>|
+| -----------     |  -----------     |
+| <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]Y.wav" controls preload></audio> |
 ## Links
 
-[[Paper](https://arxiv.org/pdf/2207.09983v1.pdf)] [[Bibtex]()] [[Demo GitHub](https://github.com/yangdongchao/text-to-sound-synthesis-demo)] [[TencentAILab](https://ai.tencent.com/ailab/zh/index)] [[PKU](https://www.pku.edu.cn/)] [[code](https://github.com/yangdongchao/Text-to-sound-Synthesis)]
+[[Paper]()] [[Bibtex]()] [[Demo GitHub](https://github.com/yangdongchao/NoreSpeech_demo)] [[TencentAILab](https://ai.tencent.com/ailab/zh/index)] [[PKU](https://www.pku.edu.cn/)] [[code](https://github.com/yangdongchao/NoreSpeech)]
 
