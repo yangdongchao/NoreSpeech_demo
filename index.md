@@ -44,7 +44,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | -----------     |
 | <audio src="non_pa/sample1/100_121674_000026_000003.wav" controls preload></audio> |
 
-#### (1) Target Text: well , his grill has a plating of gold , and his twistings are greatly admired
+##### Target Text: well , his grill has a plating of gold , and his twistings are greatly admired
 
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
@@ -56,7 +56,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | -----------     |
 | <audio src="non_pa/sample2/1012_133424_000001_000000.wav" controls preload></audio> |
 
-#### (2) Target Text: to be more accurate , i should have said to the northeast
+##### Target Text: to be more accurate , i should have said to the northeast
 
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
@@ -68,7 +68,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | -----------     |
 | <audio src="non_pa/sample3/1027_125140_000008_000000.wav" controls preload></audio> |
 
-#### (3) Target Text: but there was a passenger dropped off for you a little girl
+##### Target Text: but there was a passenger dropped off for you a little girl
 
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
@@ -80,7 +80,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | -----------     |
 | <audio src="non_pa/sample4/1028_133393_000002_000001.wav" controls preload></audio> |
 
-#### (4) Target Text: she would invoke the past , recall old recollections ; she would supplicate him by the remembrance of guilty , yet happy days.
+##### Target Text: she would invoke the past , recall old recollections ; she would supplicate him by the remembrance of guilty , yet happy days.
 
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
@@ -92,7 +92,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | -----------     |
 | <audio src="non_pa/sample5/14_208_000001_000000.wav" controls preload></audio> |
 
-#### (5) Target Text: the store is on a corner about which coveys of ragged plumed , hilarious children play and become candidates for the cough drops and soothing syrups that wait for them inside.
+##### Target Text: the store is on a corner about which coveys of ragged plumed , hilarious children play and become candidates for the cough drops and soothing syrups that wait for them inside.
 
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
