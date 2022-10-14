@@ -1,26 +1,21 @@
-# <center> Diffsound: Discrete Diffusion Model for Text-to-sound Generation </center>
+# <center> NoreSpeech </center>
 
-<center> Dongchao Yang<sup>1</sup>, Jianwei Yu<sup>2</sup>, Helin Wang<sup>1</sup>, Wen Wang<sup>1</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup> Dong Yu<sup>2</sup> </center> 
+<center> Dongchao Yang<sup>1</sup>, Songxiang Liu<sup>2</sup>, Jianwei Yu<sup>2</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup></center> 
  
 <center> 1 Peking University </center>
 
 <center> 2 Tencent AI Lab</center>
 
 ## Introduction
-This is a [demo](https://github.com/yangdongchao/text-to-sound-synthesis-demo/) for our paper **_Diffsound: Discrete Diffusion Model for Text-to-sound Generation_**. Code and Pre-trained model can be found on [github](https://github.com/yangdongchao/Text-to-sound-Synthesis). In the following, we will show some generated samples by our proposed method. If you want to find more samples, please refer to our [github](https://github.com/yangdongchao/Text-to-sound-Synthesis).
+This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_NoreSpeech_**. Code and Pre-trained model can be found on [github](https://github.com/yangdongchao/NoreSpeech). In the following, we will show some generated samples by our proposed method. If you want to find more samples, please refer to our [github](https://github.com/yangdongchao/NoreSpeech).
 
 ## Examples
 
-### The comprarison between generated sample by AR and Diffsound models and real sound
-
-| <center>Text description</center> | <center>AR models</center> | <center>Diffsound models</center> |<center>Real samples</center>|
-| :--- | :--- | :--- |
-|Birds and insects make noise during the daytime|<audio src="1/YsxIvBMSavMQ_mel_sample_5.wav" controls preload></audio>|<audio src="Birds/YsxIvBMSavMQ_mel_sample_3.wav" controls preload></audio>|<audio src="samples1/YsxIvBMSavMQ.wav" controls preload></audio>|
-|Mel-spectrograms|<img src="1/AR_bird.png" width="60%" height="60%" />|<img src="Pic/Yvms5XGTDVQc_g1.png" width="60%" height="60%" />|<img src="Pic/Yvms5XGTDVQc_orf.png" width="60%" height="60%" />|
-|A dog barks and whimpers|<audio src="2/YsYj4hpDUZDQ_mel_sample_0.wav" controls preload></audio>|<audio src="dogbarks/YsShpyu2l4YQ_mel_sample_4.wav" controls preload></audio>|<audio src="samples1/YsShpyu2l4YQ.wav" controls preload></audio>|
-|Mel-spectrograms|<img src="2/AR_dog.png" width="60%" height="60%" />|<img src="Pic/dog.png" width="60%" height="60%" />|<img src="Pic/YsShpyu2l4YQ_org.png" width="60%" height="60%" />|
-|A person is snoring while sleeping|<audio src="3/Yt8tv5YRMJUg_mel_sample_8.wav" controls preload></audio>|<audio src="snoring/YvJrjSeP17yE_mel_sample_0.wav" controls preload></audio>|<audio src="samples1/YsLkeqCDJIyw.wav" controls preload></audio>|
-|Mel-spectrograms|<img src="3/AR1.png" width="60%" height="60%" />|<img src="Pic/YsLkeqCDJIyw_g1.png" width="60%" height="60%" />|<img src="Pic/YsLkeqCDJIyw_org.png" width="60%" height="60%" />|
+### The comprarison between generated sample by other SOTA models and our NoreSpeech
+<p>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</p>
+| <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center>| <center>GenerSpeech (clean) </center>| <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center>| <center> NoreSpeech </center>|
+| :--- | :--- | :--- |:--- | :--- | :--- |:--- |
+|<audio src="sample4/101_126859_000006_000000_ref_clean.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_ref_noise.wav" controls preload></audio>|<audio src="samples4/101_126859_000006_000000_fs2.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_gener_clean.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_gener_noise.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_gener_denoise.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_nore.wav" controls preload></audio>
 
 ### Other generated samples by Diffsound model
 * **Sample 1**
