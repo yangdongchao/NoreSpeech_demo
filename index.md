@@ -10,9 +10,8 @@
 This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_NoreSpeech_**. Code and Pre-trained model can be found on [github](https://github.com/yangdongchao/NoreSpeech). In the following, we will show some generated samples by our proposed method. If you want to find more samples, please refer to our [github](https://github.com/yangdongchao/NoreSpeech).
 
 ## Examples
-
+Reference/Target Text: The rainbow is a division of white light into many beautiful colors
 ### The comprarison between generated sample by other SOTA models and our NoreSpeech
-<p>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</p>
 | <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center>| <center>GenerSpeech (clean) </center>| <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center>| <center> NoreSpeech </center>|
 | :--- | :--- | :--- |:--- | :--- | :--- |:--- |
 |<audio src="sample4/101_126859_000006_000000_ref_clean.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_ref_noise.wav" controls preload></audio>|<audio src="samples4/101_126859_000006_000000_fs2.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_gener_clean.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_gener_noise.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_gener_denoise.wav" controls preload></audio>|<audio src="sample4/101_126859_000006_000000_nore.wav" controls preload></audio>
