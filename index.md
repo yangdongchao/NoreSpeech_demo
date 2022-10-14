@@ -13,7 +13,7 @@ This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_Lea
 Reference/Target Text: The rainbow is a division of white light into many beautiful colors
 ### The comprarison between generated sample by other SOTA models and our NoreSpeech
 | <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center> | <center>GenerSpeech (clean) </center> | <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center> | <center> NoreSpeech </center>|
-| :--- | :--- | :--- |:--- | :--- | :--- |:--- |
+| :------- | :------- | :------- |:------- | :------- | :------- |:------- |
 |<audio src="sample4/101_126859_000006_000000_ref_clean.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_ref_noise.wav" controls preload></audio> | <audio src="samples4/101_126859_000006_000000_fs2.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_gener_clean.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_gener_noise.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_gener_denoise.wav" controls preload></audio> | <audio src="sample4/101_126859_000006_000000_nore.wav" controls preload></audio> |
 
 ### Other generated samples by Diffsound model
