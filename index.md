@@ -97,6 +97,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | <center> GenerSpeech </center> | <center> NoreSpeech </center>|
 | -----------     |  -----------     |
 | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]Y.wav" controls preload></audio> |
+
 ## Links
 
 [[Paper]()] [[Bibtex]()] [[Demo GitHub](https://github.com/yangdongchao/NoreSpeech_demo)] [[TencentAILab](https://ai.tencent.com/ailab/zh/index)] [[PKU](https://www.pku.edu.cn/)] [[code](https://github.com/yangdongchao/NoreSpeech)]
