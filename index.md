@@ -36,11 +36,11 @@ This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_Lea
 |<audio src="sample3/1012_133424_000008_000001_ref_clean.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_ref_noise.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_fs2.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_gener_clean.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_gener_noise.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_gener_denoise.wav" controls preload></audio> | <audio src="sample3/1012_133424_000008_000001_nore.wav" controls preload></audio> |
 
 ### Non-Parallel Transfer
-In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. Below, contrast the monotonous prosody of the baseline with examples of long-form synthesis with a narrative source style.
+In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. 
 
 ##### (1) Reference Text: when it was all done he put it on the table beside me , and at first i did nt know whether i was the live rabbit or the toy rabbit , we were so much alike 
 
-| Reference aduio |
+| Reference audio |
 | -----------     |
 | <audio src="non_pa/sample1/100_121674_000026_000003.wav" controls preload></audio> |
 
@@ -52,7 +52,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 
 ##### (2) Reference Text: chapter eight the mermaids lagoon
 
-| Reference aduio |
+| Reference audio |
 | -----------     |
 | <audio src="non_pa/sample2/1012_133424_000001_000000.wav" controls preload></audio> |
 
@@ -64,7 +64,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 
 ##### (3) Reference Text: some of the reverend frank milveys brethren had found themselves exceedingly uncomfortable in their minds , because they were required to bury the dead too hopefully 
 
-| Reference aduio |
+| Reference audio |
 | -----------     |
 | <audio src="non_pa/sample3/1027_125140_000008_000000.wav" controls preload></audio> |
 
@@ -76,7 +76,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 
 ##### (4) Reference Text: baron conrad and his men at arms sat foot in stirrup , the milk white horse that had been brought for otto stood waiting for him beside his fathers great charger. 
 
-| Reference aduio |
+| Reference audio |
 | -----------     |
 | <audio src="non_pa/sample4/1028_133393_000002_000001.wav" controls preload></audio> |
 
@@ -88,7 +88,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 
 ##### (5) Reference Text: the morrow brought a very sober looking morning , the sun making only a few efforts to appear , and catherine augured from it everything most favourable to her wishes 
 
-| Reference aduio |
+| Reference audio |
 | -----------     |
 | <audio src="non_pa/sample5/14_208_000001_000000.wav" controls preload></audio> |
 
