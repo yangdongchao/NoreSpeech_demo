@@ -1,10 +1,10 @@
 # <center> NoreSpeech </center>
 
-<center> Dongchao Yang<sup>1</sup>, Songxiang Liu<sup>2</sup>, Jianwei Yu<sup>2</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup></center> 
+<center> Dongchao Yang<sup>1</sup>, Songxiang Liu<sup>2</sup>, Jianwei Yu<sup>2</sup>, Helin Wang<sup>3</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup></center> 
  
 <center> 1 Peking University </center>
-
 <center> 2 Tencent AI Lab</center>
+<center> 3 Johns Hopkins University</center>
 
 ## Introduction
 This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_Learning to speak by learning to generate: deep style features generation by diffusion model for noisy-robust expressive TTS_**. Code and Pre-trained model can be found on [github](https://github.com/yangdongchao/NoreSpeech). In the following, we will show some generated samples by our proposed method. If you want to find more samples, please refer to our [github](https://github.com/yangdongchao/NoreSpeech).
