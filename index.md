@@ -1,17 +1,17 @@
-# <center> NoreSpeech </center>
+# <center> NoreSpeech: Knowledge Distillation based Conditional Diffusion Model for Noise-robust Expressive TTS </center>
 
-<center> Dongchao Yang<sup>1</sup>, Songxiang Liu<sup>2</sup>, Jianwei Yu<sup>2</sup>, Helin Wang<sup>3</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup></center> 
+<!-- <center> Dongchao Yang<sup>1</sup>, Songxiang Liu<sup>2</sup>, Jianwei Yu<sup>2</sup>, Helin Wang<sup>3</sup>, Chao Weng<sup>2</sup>, Yuexian Zou<sup>1</sup></center> 
  
 <center> 1 Peking University </center>
 <center> 2 Tencent AI Lab</center>
-<center> 3 Johns Hopkins University</center>
+<center> 3 Johns Hopkins University</center> -->
 
 ## Introduction
-This is a [demo](http://dongchaoyang.top/NoreSpeech_demo//) for our paper **_Learning to speak by learning to generate: deep style features generation by diffusion model for noisy-robust expressive TTS_**. Code and Pre-trained model can be found on [github](https://github.com/yangdongchao/NoreSpeech). In the following, we will show some generated samples by our proposed method. If you want to find more samples, please refer to our [github](https://github.com/yangdongchao/NoreSpeech).
+This is a demo for our paper **_NoreSpeech: Knowledge Distillation based Conditional Diffusion Model for Noise-robust Expressive TTS_**. In the following, we will show some generated samples by our proposed method. We will release more samples, code and pre-trained models after the review. 
 
 ## The comprarison between generated sample by other SOTA models and our NoreSpeech
 
-##### Reference/Target Text: we must tread softly and talk low as we go through the land of the jolliginki
+#### # Reference/Target Text: we must tread softly and talk low as we go through the land of the jolliginki
 
 | <center>Reference (clean)</center> | <center>Reference (noisy)</center> | <center>FS2 (nosiy) </center> | <center>Styler </center> | <center>GenerSpeech (clean) </center> | <center>GenerSpeech (noisy) </center>| <center>GenerSpeech (denoise) </center> | <center> NoreSpeech </center>|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -98,7 +98,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 | -----------     |  -----------     |
 | <audio src="non_pa/sample5/14_208_000001_000000[Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]X.wav" controls preload></audio> | <audio src="non_pa/sample5/[000045][14_208_000001_000000][Generalize]Y.wav" controls preload></audio> |
 
-## Links
+<!-- ## Links
 
-[[Paper]()] [[Bibtex]()] [[Demo GitHub](https://github.com/yangdongchao/NoreSpeech_demo)] [[TencentAILab](https://ai.tencent.com/ailab/zh/index)] [[PKU](https://www.pku.edu.cn/)] [[code](https://github.com/yangdongchao/NoreSpeech)]
+[[Paper]()] [[Bibtex]()] [[Demo GitHub](https://github.com/yangdongchao/NoreSpeech_demo)] [[TencentAILab](https://ai.tencent.com/ailab/zh/index)] [[PKU](https://www.pku.edu.cn/)] [[code](https://github.com/yangdongchao/NoreSpeech)] -->
 
